@@ -1,0 +1,51 @@
+cd pasta_do_projeto   # entrar na pasta
+git init              # criar repositório
+git clone URL         # baixar repositório pronto
+git status            # conferir se está no repositório
+  - se tiver "on main" está no repo certo
+  - se não, aparesserá "fatal: not a git repository"
+
+git status                     # ver mudanças
+git add .                      # preparar todos arquivos
+git add nome_do_arquivo.ext    # preparar expecificos
+git commit -m "Mensagem clara"
+git push                       # enviar para o GitHub
+git push -u origin main        # na primeira vez, pode ser necessário
+git push -u origin master      # ou
+
+# Tipos de Commits #
+feat: adiciona algo ao projeto
+fix: corrige algo que estava quebrado
+docs: adiciona instruções no README
+style: espaços,identação, ponto e vírgula, etc
+refactor: simplificar código (sem mudar o compotamento)
+perf: otimização do código (eficiencia e rapidez)
+test: teste
+build:
+ci: mudanças em github actions, CI/CD etc
+chore: tarefas gerais/nada funcional (remover arquivos temp, configs, limpeza)
+revert: desfazer commmit
+
+# Tem como commitar temporariamente - tem bem + coisa #
+git stash # guarda as mudanças, mas sem fazer commit
+
+# Guadar mudanças -PULL- #
+git status - se aparecer 'working tree clean'
+git stash
+git pull
+git stash pop
+
+# Tratamento de conflitos #
+
+
+# Git Ignore #
+1.Criar uma pasta '.gitignore'
+2.No terminal: touch .gitignore (ou pelo editor 'vscode')
+3.A intenção é ignorar pastas especificas
+  3.1. Ignorar por pasta - 'build/'
+  3.2. Ignorar tudo dentro da pasta 'build/*'
+  3.3. Ignorar tudo menos um arquivo '* - enter - !README.md'
+  3.3. Ignorar por extensão '*.log'
+
+ 
+
