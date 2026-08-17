@@ -1,4 +1,7 @@
-# Git e GitHub — Guia de uso pelo Git Bash
+# Capitulo 01 - Guia Iniciante de Git e GitHub
+
+- [Cap01 - Guia Iniciante](/dicionario-git-iniciante.md)
+- [Cap02 - Utilizando Branches](dicionario-git-brach.md)
 
 ## Sumário
 
